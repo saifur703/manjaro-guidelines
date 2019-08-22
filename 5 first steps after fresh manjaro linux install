@@ -1,4 +1,0 @@
-My own guide to install softwares on Manjaro Linux
-
-Switch to Fastest Mirror
-sudo pacman-mirrors --fasttrack
