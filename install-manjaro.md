@@ -22,6 +22,8 @@ under here create partition as you want for example
 8. linux-swap     - 7 GB
 9. fat32/boot/efi - 1GB
 
+For better Understand look at the screenshot: https://imgur.com/GSEPhpU.png
+
 Grab a coffee and wait until the installation is finished.
 You can use the live-environment while you wait.
 When instalation finish restart your machine.
