@@ -24,3 +24,13 @@ cd visual-studio-code-bin
 ```
 makepkg -si
 ```
+
+# Configure VSCode
+```
+1. File > Preferences > Font-size: 18 pixel
+2. Extention
+    * Code Runner
+    * PHP IntelliSense
+    * WordPress
+3. 
+```
