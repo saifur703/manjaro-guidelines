@@ -35,3 +35,29 @@ makepkg -si
     * PHP IntelliSense
     * WordPress
 ```
+#### How do I duplicate a line (Ctrl+D) in Visual Studio Code?
+```
+File > Preferences > Keyboard Shortcuts
+
+And editing the keybindings.json
+```
+Example:
+```
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    }
+]
+```
