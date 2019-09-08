@@ -61,3 +61,13 @@ Example:
     }
 ]
 ```
+
+## Install Fira Code
+``
+Just Go to Add/Remove Software and Search Fira Code then istall it.
+``
+## Configure Fira Code
+``
+Preferences > Settings > Font Family > 'Fira Code',
+Preferences > Color Themes > One Dark Pro
+``
