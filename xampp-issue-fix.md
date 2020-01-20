@@ -43,3 +43,10 @@ chmod a+rwx uploads
 ```
 
 ###### If need any permission others directory, you have to do as like above methods. Have a Good Journey!!!
+
+## WP Asking for FTP Credentials with XAMPP Localhost
+To fix the issue, just add the following line of code in your installed WordPress's wp-config.php file. It's a PHP constant declaration which tells the WordPress to avoid the FTP. That's it.
+```
+define( 'FS_METHOD', 'direct' );
+```
+
